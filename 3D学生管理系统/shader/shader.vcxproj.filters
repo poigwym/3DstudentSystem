@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="d3d工具">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{461e61de-4c83-487f-ab69-28b61691e610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\顶点shader">
+      <UniqueIdentifier>{4c947ff7-bfbd-49b3-b89f-9f88af319a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\顶点shader\toon shader">
+      <UniqueIdentifier>{81867658-0e17-43e9-a5e8-d3b1737611e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\effect shader">
+      <UniqueIdentifier>{b8b83ec3-a163-4e32-b96a-93540b6dd009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d工具\input">
+      <UniqueIdentifier>{00052de0-f5f7-4ad2-af97-07fb66744aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d工具\camera">
+      <UniqueIdentifier>{7445895c-f8b8-4944-bd1d-9169cfefebe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\像素shader">
+      <UniqueIdentifier>{b7bad3df-6f7e-4390-837c-74da5312f6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{d5754fd0-6f4c-4fb1-8e95-325f0d3a9295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\四元数">
+      <UniqueIdentifier>{3eea56ed-6d13-470f-8ef8-d7f63db9bac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物理">
+      <UniqueIdentifier>{cb47f2c8-bbdd-4c51-a364-c74956da94d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物理\OBB">
+      <UniqueIdentifier>{f6ad445b-bc51-4e1f-871a-d4c0195b1eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation\demo">
+      <UniqueIdentifier>{b2de12fb-fbb5-40dc-bacf-1e4caec70893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\像素shader\高光demo">
+      <UniqueIdentifier>{7e17742a-5fce-41dc-9c99-f872ca1f0ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\effect shader\高光effect demo">
+      <UniqueIdentifier>{b64e2098-dd41-49ed-8b80-13a83cfb487a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物理\demo">
+      <UniqueIdentifier>{9224ff70-3568-4e15-8141-ffd8b5d080c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{b6368fb6-3be0-40a5-b01e-e39d21e95629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\demo">
+      <UniqueIdentifier>{3335874b-c998-4619-8c40-c75bf425d935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\群体模拟">
+      <UniqueIdentifier>{2b46beea-29ac-44e5-9733-cf14a9e96b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\状态机">
+      <UniqueIdentifier>{1a4e21f2-ef97-4824-886f-b6a42bef17cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\A%2a">
+      <UniqueIdentifier>{83254b62-3671-4d07-ae1a-8bfb60c4cd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景管理">
+      <UniqueIdentifier>{e8e3675d-6bb4-42dc-8267-84bd1654ba3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景管理\八叉树">
+      <UniqueIdentifier>{b140b379-75c0-4f1d-941a-fac28e41b26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{ad35e393-97c0-46ec-b646-097e7587624e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d工具\网格相关">
+      <UniqueIdentifier>{87ccc520-ab58-477e-9de7-64e8985ed016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d工具\画图相关">
+      <UniqueIdentifier>{e2fd1d50-c1ca-4fe0-b95a-7d63c862baa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d工具\util">
+      <UniqueIdentifier>{b532b993-196b-4c7e-b095-074fbc54e031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{03bdce6a-36ac-4728-a3a5-0a998473fe84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="studentSys">
+      <UniqueIdentifier>{b6dea600-bc0e-4a6c-9244-bbb4edc70410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="studentSys\Module">
+      <UniqueIdentifier>{a85773ba-d332-449f-9a3b-76b3def3c323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="studentSys\Core">
+      <UniqueIdentifier>{3822f3ae-237e-4b85-b151-cf5e836d106b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="studentSys\gamebackground">
+      <UniqueIdentifier>{40b2a4ef-a1e5-4cba-a497-f6901e49dbff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="transform.txt">
+      <Filter>shader</Filter>
+    </Text>
+    <Text Include="effect api.txt">
+      <Filter>shader\effect shader\高光effect demo</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="各种d3d库comment.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="studentLOG.txt">
+      <Filter>studentSys</Filter>
+    </Text>
+    <Text Include="GUIinput.txt">
+      <Filter>studentSys</Filter>
+    </Text>
+    <Text Include="页面数据.txt">
+      <Filter>studentSys</Filter>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>studentSys\gamebackground</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="silhouette.cpp">
+      <Filter>shader\顶点shader\toon shader</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.h">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="inputsystem.cpp">
+      <Filter>d3d工具\input</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dutil.cpp">
+      <Filter>d3d工具\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>math\四元数</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>物理\OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="骨骼动画提取.cpp">
+      <Filter>animation\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="骨骼动画初步.cpp">
+      <Filter>animation\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="displaymain.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="IKanimation.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="头部IK.cpp">
+      <Filter>animation\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="手部IK.cpp">
+      <Filter>animation\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="birdFlocks.cpp">
+      <Filter>AI\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="CrowdDemo.cpp">
+      <Filter>AI\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="animation模板.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="obb碰撞demo.cpp">
+      <Filter>物理\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="effect demo.cpp">
+      <Filter>shader\effect shader\高光effect demo</Filter>
+    </ClCompile>
+    <ClCompile Include="toon demo.cpp">
+      <Filter>shader\顶点shader\toon shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ps demo.cpp">
+      <Filter>shader\像素shader\高光demo</Filter>
+    </ClCompile>
+    <ClCompile Include="fsm demo.cpp">
+      <Filter>AI\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="flock.cpp">
+      <Filter>AI\群体模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="crowd.cpp">
+      <Filter>AI\群体模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="fsm.cpp">
+      <Filter>AI\状态机</Filter>
+    </ClCompile>
+    <ClCompile Include="math\matrix4x4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\quaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\ray3D.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\mathdefine.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\vectors.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\plane3D.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="navigmesh.cpp">
+      <Filter>AI\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar demo.cpp">
+      <Filter>AI\demo</Filter>
+    </ClCompile>
+    <ClCompile Include="oct.cpp">
+      <Filter>场景管理\八叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="oct demo.cpp">
+      <Filter>场景管理\八叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>d3d工具\网格相关</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>d3d工具\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Gobals.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITextBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIbutton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIstaticText.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UserModule.cpp">
+      <Filter>studentSys\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCourseModule.cpp">
+      <Filter>studentSys\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreModule.cpp">
+      <Filter>studentSys\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="LogModule.cpp">
+      <Filter>studentSys\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseTable.cpp">
+      <Filter>studentSys\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Kebiao.cpp">
+      <Filter>studentSys\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCourseTable.cpp">
+      <Filter>studentSys\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="studentSys.cpp">
+      <Filter>studentSys\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTable.cpp">
+      <Filter>studentSys\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>studentSys</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentApp.cpp">
+      <Filter>studentSys</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClCompile>
+    <ClCompile Include="chars.cpp">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClCompile>
+    <ClCompile Include="CharState.cpp">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemain.cpp">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transformation.h">
+      <Filter>d3d工具</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>d3d工具</Filter>
+    </ClInclude>
+    <ClInclude Include="silhouette.h">
+      <Filter>shader\顶点shader\toon shader</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="inputsystem.h">
+      <Filter>d3d工具\input</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dutil.h">
+      <Filter>d3d工具\util</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>d3d工具\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerAngle.h">
+      <Filter>math\四元数</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>math\四元数</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>物理\OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="typer.h">
+      <Filter>d3d工具</Filter>
+    </ClInclude>
+    <ClInclude Include="timecounter.h">
+      <Filter>d3d工具</Filter>
+    </ClInclude>
+    <ClInclude Include="IKanimation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="flock.h">
+      <Filter>AI\群体模拟</Filter>
+    </ClInclude>
+    <ClInclude Include="crowd.h">
+      <Filter>AI\群体模拟</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm.h">
+      <Filter>AI\状态机</Filter>
+    </ClInclude>
+    <ClInclude Include="math\matrix4x4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\ray3D.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\mathdefine.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\MathLib.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Line.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vectors.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\plane3D.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="navigmesh.h">
+      <Filter>AI\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="navigcell.h">
+      <Filter>AI\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="oct.h">
+      <Filter>场景管理\八叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="functools.h">
+      <Filter>d3d工具\util</Filter>
+    </ClInclude>
+    <ClInclude Include="各种renderstate.h">
+      <Filter>d3d工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>d3d工具\网格相关</Filter>
+    </ClInclude>
+    <ClInclude Include="drawgraph.h">
+      <Filter>d3d工具\画图相关</Filter>
+    </ClInclude>
+    <ClInclude Include="quickmodels.h">
+      <Filter>d3d工具\画图相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Gobals.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIbutton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITextBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIbase.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIstaticText.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SysModule.h">
+      <Filter>studentSys\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="studentSys.h">
+      <Filter>studentSys\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentApp.h">
+      <Filter>studentSys</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClInclude>
+    <ClInclude Include="chars.h">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClInclude>
+    <ClInclude Include="CharState.h">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemain.h">
+      <Filter>studentSys\gamebackground</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="outline.hlsl">
+      <Filter>shader\顶点shader\toon shader</Filter>
+    </None>
+    <None Include="toon.hlsl">
+      <Filter>shader\顶点shader\toon shader</Filter>
+    </None>
+    <None Include="aa.hlsl">
+      <Filter>shader\像素shader\高光demo</Filter>
+    </None>
+    <None Include="bb.hlsl">
+      <Filter>shader\像素shader\高光demo</Filter>
+    </None>
+    <None Include="eff.hlsl">
+      <Filter>shader\effect shader\高光effect demo</Filter>
+    </None>
+    <None Include="BlendVertex.fx">
+      <Filter>animation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="toonshade.bmp">
+      <Filter>shader\顶点shader\toon shader</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

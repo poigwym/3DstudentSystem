@@ -1,0 +1,33 @@
+
+
+
+
+matrix ViewProjMat;				// 4x4
+vector blue = { 0.0f, 0.0f, 1.0f, 1.0f };  //4D vector  blue color;
+
+
+// input structure describe  vertex  inputed to shader
+// POSITION ÓïÒå£¬ ·Åµ½position¼Ä´æÆ÷
+
+struct VS_INPUT
+{
+    vector pos: POSITION;
+};
+struct VS_OUTPUT
+{
+    vector pos : POSITION;
+    vector diffuse  : COLOR;
+};
+
+
+
+VS_OUTPUT VS_Main(VS_INPUT input) 
+{
+	VS_OUTPUT output = (VS_OUTPUT)0;
+	output.pos = mul(input.pos, ViewProjMat);
+	output.diffuse = blue;
+	return output;
+}
+
+
+

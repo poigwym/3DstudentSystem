@@ -1,0 +1,23 @@
+
+
+// -------------------------- effect  api -----------------------------
+
+D3DXHANDLE handle; 
+ID3DXEffect *es;
+ID3DXBuffer *errorbuf;
+D3DXCreateEffectFromFile(d3dDevice, filename, 0, 0, 0, 0, &es, &errorbuf)
+
+
+
+hW = es->GetParameterBySemantic(0, "WORLD");//通过semantic 获得句柄
+es->SetVector(hW, world); // 句柄设置全局变量
+
+
+es->SetTechnique("Lighting");    // 开启特效, technique Lighting
+es->Begin(&c, 0);
+es->BeginPass(i);		
+es->CommitChanges();	
+es->EndPass();
+es->End();
+
+
